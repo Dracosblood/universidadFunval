@@ -17,9 +17,9 @@
         }
 
         ?>
-        <section class="h-screen bg-logo flex flex-col items-center">
+        <section class="h-screen bg-logo flex flex-col items-center justify-center bg-[url('/assets/sombre.jpg')] bg-no-repeat bg-cover">
             <div class="w-72">
-                <img src="/assets/logo.jpg" alt="logo">
+                <img class="rounded-xl pb-2 " src="/assets/logo.jpg" alt="logo">
             </div>
             <div class="bg-white shadow-md w-96 py-8  px-10 ">
                 <h1 class="text-center mb-6">Bienvenido ingresa con tu cuenta</h1>

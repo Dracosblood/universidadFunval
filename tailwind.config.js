@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         logo: {
-          DEFAULT: '#fff5d2',
+          DEFAULT: style="background-image: url ('/assets/logo.jpg');",
         }
       }
     },
