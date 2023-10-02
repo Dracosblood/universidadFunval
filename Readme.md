@@ -14,15 +14,15 @@ Sistema escolar implementando CRUD y MVC para administracion de usuarios y clase
 
 ## Usuarios y contraseñas 
 
-para todas las cuentas la contraseña es:
- 123.
- 
+- para todas las cuentas la contraseña es:
+ - 123
+
 estas son las cuentas:
 
 - Admid
     - admin@gmail.com 
 
-Maestros:
+- Maestros:
     - cristiang@gmail.com 
     - haroldc@gmail.com  
     - isaias@gmail.com  
