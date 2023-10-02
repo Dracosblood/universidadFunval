@@ -27,7 +27,7 @@ class StudentController
     {
         $model = new Alumnos();
         $model->update($request);
-        $message = '<p class="text-center text-green-500">Instructor actualizado correctamente</p>';
+        $message = '<p class="text-center text-green-500">Datos actualizados correctamente</p>';
         $this->showStudentInformation($message);
     }
 
