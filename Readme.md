@@ -25,7 +25,7 @@ estas son las cuentas:
 - Maestros:
     - cristiang@gmail.com 
     - haroldc@gmail.com  
-    - isaias@gmail.com  
+    - isaiasz@gmail.com  
 
 - Estudiantes
     - joset@gmail.com 
