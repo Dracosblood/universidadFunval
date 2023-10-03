@@ -1,1 +1,1 @@
-<a href="/index?action=logout" class="text-red-500">Logout</a>
+<a href="/index?action=logout" class="text-white border-2 bg-red-500 text-center rounded  hover:bg-red-700">Logout</a>
