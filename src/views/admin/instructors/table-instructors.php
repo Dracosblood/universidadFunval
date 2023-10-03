@@ -47,14 +47,14 @@
                                             <td><?= $row["email"] ?></td>
                                             <td><?= $row["address"] ?></td>
                                             <td><?= $row["birthday"] ?></td>
-                                            <td><a href="/index.php?action=edit-instructor-clases-view&instructor_id=<?= $row["id"] ?>"><?= $row["count"] == 0 ? 'Agregar  (0) ' : 'editar   ' .  "(" . $row["count"] . ")" ?></a></td>
+                                            <td><a class="text-white text-center border-2 rounded gap-1 bg-cyan-500 w-[70px] hover:bg-sky-700" href="/index.php?action=edit-instructor-clases-view&instructor_id=<?= $row["id"] ?>"><?= $row["count"] == 0 ? 'Agregar  (0) ' : 'Editar   ' .  "(" . $row["count"] . ")" ?></a></td>
                                             <td>
-                                                <a href="?action=edit-instructor-view&user_id=<?= $row["id"] ?>">Editar </a>
+                                                <a class="text-white text-center border-2 rounded gap-1 bg-cyan-500 w-[70px] hover:bg-sky-700" href="?action=edit-instructor-view&user_id=<?= $row["id"] ?>">Editar </a>
 
                                                 <form action="/index.php" method="post" class="inline">
                                                     <input type="text" hidden name="user_id" value="<?= $row["id"] ?>">
                                                     <input type="hidden" name="action" value="delete-instructor">
-                                                    <button type="submit">Delete</button>
+                                                    <button type="submit" class="text-white text-center border-2 rounded gap-1 bg-red-500 w-[70px] hover:bg-red-700">Delete</button>
                                                 </form>
                                             </td>
                                         </tr>

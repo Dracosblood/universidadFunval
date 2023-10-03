@@ -43,12 +43,12 @@
                                             <td><?= $row["name"] ?></td>
                                             <td><?= $row["maestro"] ?></td>
                                             <td>
-                                                <a href="?action=edit-clase-view&clase_id=<?= $row["id"] ?>">Editar </a>
+                                                <a class="text-white text-center border-2 rounded gap-1 bg-cyan-500 w-[70px] hover:bg-sky-700" href="?action=edit-clase-view&clase_id=<?= $row["id"] ?>">Editar </a>
 
                                                 <form action="/index.php" method="post" class="inline">
                                                     <input type="text" hidden name="clase_id" value="<?= $row["id"] ?>">
                                                     <input type="hidden" name="action" value="delete-clase">
-                                                    <button type="submit">Borrar</button>
+                                                    <button type="submit" class="text-white text-center border-2 rounded gap-1 bg-red-500 w-[70px] hover:bg-red-700">Delete</button>
                                                 </form>
                                             </td>
                                         </tr>

@@ -41,7 +41,7 @@
                                             <td><?= $row["email"] ?></td>
                                             <td><?= $row["description"] ?></td>
                                             <td>
-                                                <a href="?action=edit-user-role&user_id=<?= $row["id"] ?>">Editar </a>
+                                                <a class="text-white text-center border-2 rounded gap-1 bg-cyan-500 w-[100px] hover:bg-sky-700" href="?action=edit-user-role&user_id=<?= $row["id"] ?>">Editar </a>
                                             </td>
                                         </tr>
 

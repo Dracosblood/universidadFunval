@@ -1,5 +1,5 @@
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/src/templates/head.php'; ?>
-<title>Edit Student</title>
+<title>Edita Instructor</title>
 </head>
 
 <body>

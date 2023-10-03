@@ -1,5 +1,5 @@
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/src/templates/head.php'; ?>
-<title>Dashboard</title>
+<title>Dashboard Admin</title>
 </head>
 
 
