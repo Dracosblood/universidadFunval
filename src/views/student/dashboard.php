@@ -1,5 +1,5 @@
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/src/templates/head.php'; ?>
-<title>Dashboard - Maestro</title>
+<title>Dashboard - Alumno</title>
 </head>
 
 <body>

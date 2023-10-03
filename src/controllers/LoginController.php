@@ -40,7 +40,7 @@ class LoginController
 
         if (!$hashCheck) {
 
-            $message = '<p class="notice">Paso Please check your email and password and try again.</p>';
+            $message = '<p class="notice">Please check your email and password and try again.</p>';
             include $_SERVER['DOCUMENT_ROOT'] . '/src/views/login.php'; 
             exit;
           }

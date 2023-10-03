@@ -36,7 +36,7 @@
                                     <tr>
                                         <td><?= $row["class_id"] ?></td>
                                         <td><?= $row["class_name"] ?></td>
-                                        <td class="text-blue-500"><a href="/index.php?action=delete-student-class&class_id=<?= $row["class_id"] ?>&student_id=<?= $row["student_id"] ?>">Eliminar Clase</a></td>
+                                        <td class="text-white text-center border-2 rounded gap-1 bg-cyan-500 w-[150px] hover:bg-red-500"><a href="/index.php?action=delete-student-class&class_id=<?= $row["class_id"] ?>&student_id=<?= $row["student_id"] ?>">Eliminar Clase</a></td>
                                     </tr>
                                 <?php } ?>
                             </tbody>
@@ -51,7 +51,7 @@
                             <?php foreach ($classesNotRegistered as $row) { ?>
                                 <div class="flex justify-between items-center">
                                     <span><?= $row["class_name"] ?></span>
-                                    <a class="text-blue-500" href="/index.php?action=add-student-class&class_id=<?= $row["class_id"] ?>&student_id=<?= $id ?>">Inscribir</a>
+                                    <a class="text-white text-center border-2 rounded gap-1 bg-cyan-500 w-[70px] hover:bg-sky-700" href="/index.php?action=add-student-class&class_id=<?= $row["class_id"] ?>&student_id=<?= $id ?>">Inscribir</a>
                                 </div>
 
                             <?php } ?>
